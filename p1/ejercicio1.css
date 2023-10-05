@@ -1,0 +1,54 @@
+*{
+    background-color: gray;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    font-style: italic;
+    background-color: #333;
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+}
+
+.valores{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#valorTexto{
+    font-size: 40px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: block;
+    padding: 30px;
+    width: 20%;
+    background-color: #333;
+    color: #E74C3C;
+}
+
+#valorEntero{
+    font-size: 40px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: block;
+    padding: 30px;
+    width: 20%;
+    background-color: #333;
+    color: #F4D03F;
+    margin-left: 10px;
+}
+
+#valorDecimal{
+    font-size: 40px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: block;
+    padding: 30px;
+    width: 20%;
+    background-color: #333;
+    color: #27AE60;
+    margin-left: 10px;
+}
