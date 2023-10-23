@@ -4,9 +4,9 @@ let nota2;
 let recuperacion;
 
 while(true){
-    nota1 = prompt("Introduce la nota del primer examen: ");
+    nota1 = prompt("Nota del primer control: ");
     nota1 = parseFloat(nota1);
-    nota2 = prompt("Introduce la nota del segundo examen: ");
+    nota2 = prompt("Nota del segundo control: ");
     nota2 = parseFloat(nota2);
     if(isNaN(nota1) || isNaN(nota2)){
         alert("Por favor, introduce un número válido.");
@@ -14,13 +14,13 @@ while(true){
     }
     notaTrimestre = (nota1 + nota2)/2;
     if(notaTrimestre >= 5){
-        alert(`Estás aprobado! Nota Trimestre: ${notaTrimestre}`)
+        alert(`Tu nota de Porgramación es: ${notaTrimestre}`)
     }else{
         recuperacion = prompt("¿Cuál ha sido el resultado de la recuperación? (apto/no apto");
         if(recuperacion === "no apto"){
-            alert("Tu nota es un 1");
+            alert("Tu nota de Porgramación es 1");
         }else if(recuperacion === "apto"){
-            alert("Tu nota es un 5");
+            alert("Tu nota de Porgramación es 5");
         }else{
             alert(`Por favor, introduce "apto" o "no apto"`);
             continue;
